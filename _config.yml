@@ -30,8 +30,8 @@ description: 上帝的延迟不等于上帝的拒绝
 
 # Leancloud used for Valine
 leancloud: 
-  appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
-  appkey: YsaHf3ahdzk2NkPOmNBohvgd
+  appid: uy1BNoRHqcKw8yoWV1WQ36aA-gzGzoHsz
+  appkey: pCLLlaiLc3nxJYyaHvW7Cn7r
 
 # OpenGraph & TwitterCard
 card: /images/default/tcard.jpg
