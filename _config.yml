@@ -69,18 +69,9 @@ nav:
 # Categories
 
 # Pagination
-plugins: [jekyll-paginate-v2, jekyll-sitemap]
-# paginate: 9
-# paginate_path: '/page/:num/'
-pagination:
-  enabled: true
-  per_page: 9
-  permalink: '/page/:num/'
-  title: ':title'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
+plugins: [jekyll-paginate, jekyll-sitemap]
+paginate: 9
+paginate_path: '/page/:num/'
 
 # Increase jekyll build speed
 exclude: [Gemfile, Gemfile.lock, README.md]

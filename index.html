@@ -1,6 +1,22 @@
 ---
 title: Home
-layout: category
-pagination:
-  enabled: true
+layout: default
 ---
+
+<div class="main-post-list">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <div class="post-list__meta">
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time>
+      </div>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 100 }}&hellip;</p>
+      <hr class="post-list_divider" />
+    </li>
+    {% endfor %}
+  </ol>
+{% include pagination.html %}
+</div>
+
