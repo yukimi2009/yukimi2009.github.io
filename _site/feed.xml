@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安歌</title>
+    <description>上帝的延迟不等于上帝的拒绝</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Dec 2018 20:43:44 +0800</pubDate>
+    <lastBuildDate>Mon, 24 Dec 2018 20:43:44 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>first post</title>
+        <description>&lt;p&gt;还记得几个月前刷屏朋友圈的 Google 微信小程序「猜画小歌」吗？最近 Google 联合肯德基推出了「猜画小歌」KFC  版，同时 12 月 23 日，「猜画小歌」主题店在上海肯德基曼克顿店正式开张。&lt;/p&gt;
+
+&lt;p&gt;「猜画小歌」小程序的玩法是让  AI 来猜你画简笔画是什么，AI 猜对你画的物件时，即可进入下一轮。就是这样简单操作，让大家玩得停不下来，灵魂画手们特别热衷画些奇奇怪怪的东西挑战 AI。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Dec 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/12/first-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/12/first-post/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
