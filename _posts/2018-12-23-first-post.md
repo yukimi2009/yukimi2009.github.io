@@ -2,9 +2,7 @@
 layout: post
 title: first post
 date: 2018-12-23 16:00:00 +0000
-categories: ''
-tags: []
-
+tags: [圣诞]
 ---
 还记得几个月前刷屏朋友圈的 Google 微信小程序「猜画小歌」吗？最近 Google 联合肯德基推出了「猜画小歌」KFC  版，同时 12 月 23 日，「猜画小歌」主题店在上海肯德基曼克顿店正式开张。
 
