@@ -1,0 +1,87 @@
+# Basic
+title: 安歌
+author: yukimi
+url: https://yukimi2009.github.io
+timezone: Asia/Shanghai
+
+# SEO
+keywords: [yukimi, 安歌, 情感]
+description: 上帝的延迟不等于上帝的拒绝
+
+# Social
+# social:
+#   twitter: 
+#   weibo: 
+#   spotify: 
+
+# Google
+# google: 
+#   analytics: 
+#   # adsense: 
+#   site_verification: 
+
+# # Baidu
+# baidu:
+#   site_verification: 
+
+# #Bing
+# bing: 
+#   site_verification: 
+
+# Leancloud used for Valine
+leancloud: 
+  appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
+  appkey: YsaHf3ahdzk2NkPOmNBohvgd
+
+# OpenGraph & TwitterCard
+# card: /images/default/tcard.jpg
+
+# ----------------- 上面的信息修改成你自己的 ---------------------------
+#
+#  _posts/   文章目录
+#  _drafts/ 未发布的文章目录
+#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
+#
+# --------------- 下面的信息可以自行选择是否修改 ------------------------
+
+# Permalink
+permalink: '/:year/:month/:title/'
+
+# Format
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Navigation buttons in the front page.s
+nav:
+  - {title: 主页, description: blog, url: '/'}
+  - {title: 存档, description: archive, url: '/archive/'}   
+  - {title: 读书, description: read, url: '/book/'}
+  - {title: 留言, description: guestbook, url: '/guestbook/'}      
+  - {title: 关于, description: about, url: '/about/'}         
+
+# Categories
+
+# Pagination
+plugins: [jekyll-paginate-v2, jekyll-sitemap]
+# paginate: 9
+# paginate_path: '/page/:num/'
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Increase jekyll build speed
+exclude: [Gemfile, Gemfile.lock, README.md]
+keep_files: [images]
+incrumental: true
