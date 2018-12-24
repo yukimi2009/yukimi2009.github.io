@@ -15,16 +15,16 @@ $(document).ready(function() {
 	})
 });
 
-$(document).ready(function() {
-	var dateBegin = new Date("2015/01/03 23:15:15");
-	var dateEnd = new Date();
-	var dateDiff = dateEnd.getTime() - dateBegin.getTime();
-	var dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
-	var timeLeft = dateDiff % (24 * 3600 * 1000);
-	var hours = Math.floor(timeLeft / (3600 * 1000));
-	var time = dayDiff + "d " + hours + "h";
-	$("#runtime").html(time)
-});
+// $(document).ready(function() {
+// 	var dateBegin = new Date("2015/01/03 23:15:15");
+// 	var dateEnd = new Date();
+// 	var dateDiff = dateEnd.getTime() - dateBegin.getTime();
+// 	var dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
+// 	var timeLeft = dateDiff % (24 * 3600 * 1000);
+// 	var hours = Math.floor(timeLeft / (3600 * 1000));
+// 	var time = dayDiff + "d " + hours + "h";
+// 	$("#runtime").html(time)
+// });
 
 var toc = document.querySelector(".post-toc");
 function tocShow() {
