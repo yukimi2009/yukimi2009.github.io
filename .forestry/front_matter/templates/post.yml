@@ -19,6 +19,9 @@ fields:
   label: date
   config:
     required: true
+- type: text
+  name: categories
+  label: categories
 - type: tag_list
   name: tags
   label: tags
