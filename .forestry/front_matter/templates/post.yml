@@ -25,3 +25,5 @@ fields:
 - type: tag_list
   name: tags
   label: tags
+pages:
+- _posts/沉默是金.md
